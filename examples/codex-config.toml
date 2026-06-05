@@ -1,0 +1,5 @@
+[mcp_servers.partglyph]
+url = "https://app.partglyph.com/api-mcp/mcp"
+
+[mcp_servers.partglyph.http_headers]
+Authorization = "Bearer <PARTGLYPH_API_KEY>"

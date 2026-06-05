@@ -1,0 +1,7 @@
+{
+  "type": "http",
+  "url": "https://app.partglyph.com/api-mcp/mcp",
+  "headers": {
+    "Authorization": "Bearer <PARTGLYPH_API_KEY>"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.partglyph/mcp-gateway",
+  "description": "Deterministic industrial replacement engine with official catalogs and expert accuracy checks.",
+  "title": "Partglyph MCP Gateway",
+  "version": "0.1.0",
+  "websiteUrl": "https://docs.partglyph.com/integrations/mcp/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.partglyph.com/api-mcp/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Set this to Bearer <PARTGLYPH_API_KEY> using your Partglyph MCP Access API key.",
+          "isRequired": true,
+          "value": "Bearer {partglyph_api_key}",
+          "isSecret": true,
+          "variables": {
+            "partglyph_api_key": {
+              "description": "Partglyph MCP Access API key from the Partglyph API Keys page.",
+              "isRequired": true,
+              "isSecret": true,
+              "placeholder": "psk_live_..."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
