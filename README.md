@@ -30,6 +30,12 @@ Official MCP Registry listing:
 https://registry.modelcontextprotocol.io/v0.1/servers?search=com.partglyph/mcp-gateway
 ```
 
+Glama listing:
+
+```text
+https://glama.ai/mcp/servers/akramyaslam/partglyph-mcp
+```
+
 ## Authentication
 
 Create a Partglyph MCP Access API key in the Partglyph app:
@@ -65,6 +71,8 @@ It mirrors the Official MCP Registry metadata for:
 ```text
 com.partglyph/mcp-gateway
 ```
+
+Glama ownership metadata is in `glama.json`.
 
 ## Security Contact
 
