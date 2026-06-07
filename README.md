@@ -74,6 +74,19 @@ com.partglyph/mcp-gateway
 
 Glama ownership metadata is in `glama.json`.
 
+## Legal And License
+
+The files in this public discovery and setup repository are licensed under the MIT License. See `LICENSE`.
+
+This repository license applies only to this repository's public metadata, documentation, and example configuration files. It does not grant rights to the Partglyph name, trademarks, brand assets, hosted service, API access, private gateway implementation, matching engine, product data, official catalog evidence, datasets, or customer data.
+
+Use of the hosted Partglyph service is governed by the Partglyph legal terms:
+
+- Terms of Service: `https://partglyph.com/legal/terms/`
+- Privacy Policy: `https://partglyph.com/legal/privacy/`
+- Engineering Disclaimer: `https://partglyph.com/legal/engineering-disclaimer/`
+- Limit of Liability: `https://partglyph.com/legal/liability/`
+
 ## Security Contact
 
 For sensitive security concerns, see `SECURITY.md` or contact:
